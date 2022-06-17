@@ -114,15 +114,19 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    python manage.py makemigrations
    ```
-5. Make Migrations
+5. Install Widget Tweaks
+   ```sh
+   pipenv install django-widget-tweaks
+   ```
+6. Make Migrations
    ```sh
    install pipenv
    ```
-6. Migrate
+7. Migrate
    ```sh
    python manage.py migrate
    ```
-7. Run Server
+8. Run Server
    ```sh
    python manage.py runserver
    ```
